@@ -17,6 +17,3 @@ scikit-learn
 
 # Model saving and loading
 joblib
-
-# For Google Colab specific functionality (optional, can be removed for other environments)
-google-colab
