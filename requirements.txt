@@ -1,0 +1,22 @@
+# requirements.txt
+
+# Streamlit for the web application
+streamlit
+
+# Data handling and manipulation
+pandas
+numpy
+
+# Plotting and visualization
+matplotlib
+seaborn
+
+# Machine Learning - scikit-learn
+# Renamed from sklearn to scikit-learn for pip installation
+scikit-learn
+
+# Model saving and loading
+joblib
+
+# For Google Colab specific functionality (optional, can be removed for other environments)
+google-colab
