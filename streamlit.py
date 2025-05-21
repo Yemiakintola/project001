@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder, LabelEncoder
 # Load the trained model
 # Make sure the 'student_performance_predictor.pkl' file is in the same directory
 try:
-    best_forest_reg = joblib.load('student_performance_predictor.pkl')
+    best_forest_reg = joblib.load('best_student_performance_prediction_pipeline.pkl')
     st.success("Model loaded successfully!")
 except FileNotFoundError:
     st.error("Error: Model file 'student_performance_predictor.pkl' not found. Please ensure it's in the same directory.")
