@@ -14,7 +14,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler, OneHotEncoder, LabelEncoder
 
 # Load the trained model
-# Make sure the 'student_performance_predictor.pkl' file is in the same directory
+# Make sure the 'best_student_performance_prediction_pipeline.pkl' file is in the same directory
 try:
     best_forest_reg = joblib.load('best_student_performance_prediction_pipeline.pkl')
     st.success("Model loaded successfully!")
