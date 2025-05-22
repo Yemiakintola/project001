@@ -12,6 +12,8 @@ import pandas as pd
 import joblib
 import numpy as np
 from sklearn.preprocessing import StandardScaler, OneHotEncoder, LabelEncoder
+from feature_engineering_module import create_input_engineered_features, create_input_engineered_features_df
+
 
 # Load the trained model
 # Make sure the 'best_student_performance_prediction_pipeline.pkl' file is in the same directory
